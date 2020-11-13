@@ -14,10 +14,10 @@ int main() {
     cin >> n;
   }
   
-
+//make changes please
   for (int row = 0; row <= n/2; row++){
     for (int col = 0; col <= n; col++){
-      if ((col == row)||(row + col == n)){
+      if ((row + col) == n/2||(col - row) == n/2){
         cout << "*";
       }
       else {
